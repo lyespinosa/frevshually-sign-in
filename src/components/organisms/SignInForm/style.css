@@ -3,25 +3,34 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+    height: 700px;
+    align-items: center;
 }
 
 .from{
+
     padding: 15px;
     background: #1d1d1d;
-    width: 450px;
+    width: 750px;
+    height: 350px;
     border-radius: 10px;
     box-shadow: rgba(188, 188, 188, 0.2) 0px 2px 8px 0px;
 }
 
 form{
+    width: 100%;
     margin-left: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: space-around;
+    padding-top: 10px;
 }
 
 form > *{
-    margin: 20px 10px;
+    margin: 15px 10px;
 }
 
 #submit{

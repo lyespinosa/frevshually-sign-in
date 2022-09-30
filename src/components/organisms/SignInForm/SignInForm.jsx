@@ -22,7 +22,7 @@ function SignInForm() {
               <Radio text={"other"} id={"other"} name={"gender"} value={"other"}/>
             </p>
             <Label text={"User Name"} type={"text"} id={"userName"} placeholder={"Write a username"}/>
-            <Input id="button" type={"submit"} onclick={console.log("vamoo")} value={"Create"} />
+            <Input id="button" type={"submit"} value={"Create"} />
             
           </form>
         </div>
